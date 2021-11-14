@@ -1,0 +1,9 @@
+{
+	"not-found": {
+		"title": "These links can be useful:"
+	},
+	"error": {
+		"default-message": "Oops, something went wrong! 😢",
+		"try-again": "Try to reload"
+	}
+}
