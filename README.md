@@ -1,34 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2 align="center">
+	<a href="https://artur-lansoni.vercel.app">💻 artur-lansoni.vercel.app 📱</a>
+</h2>
 
-## Getting Started
+<h1 align="center">
+	<a href="https://artur-lansoni.vercel.app">
+    	<img alt="Move.it" title="Artur Lansoni" src=".github/mockup.jpeg" />
+	</a>
+</h1>
 
-First, run the development server:
+<p align="right">
+Languages: 
+  <a href=".github/readme.pt-br.md">🇧🇷</a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-architecture">Architecture</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<br />
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## 🚀 Project
 
-To learn more about Next.js, take a look at the following resources:
+This project is a blog / portfolio that I created to share my knowledge and at the same time show my skills. So I use this application to train some of the best software development practices and also to experiment with new technologies that I've been studying.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚙️ Technologies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [X] [Next.js](https://nextjs.org)
+- [X] [React](https://reactjs.org)
+- [X] [TypeScript](https://www.typescriptlang.org)
+- [X] [ChakraUI](https://chakra-ui.com)
+- [X] [ESLint](https://eslint.org)
+- [X] [Prettier](https://prettier.io)
+- [X] [Husky](https://typicode.github.io/husky/)
+- [ ] [Jest](https://jestjs.io)
+- [ ] [Cypress](https://www.cypress.io)
+- [ ] [Storybook](https://storybook.js.org)
+- [ ] [Google Analytics]()
 
-## Deploy on Vercel
+## 💡 Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- SSR
+- Headless CMS
+- PWA
+- SEO metadata and Open Graph tags
+- Markdown
+- Internationalization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🧱 Architecture
+
+- Object-oriented programming
+- Clean Architecture
+- Design patterns
+- Unit tests
+- Integration tests
+- End to end tests
+- SOLID principles
+- KISS, DRY and YAGNI principles
+
+<br />
+
+## 📝 License
+
+This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">Made by <a href="https://github.com/ArturLansoni">Artur Lansoni</a> 👨‍💻</p>
