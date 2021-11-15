@@ -3,10 +3,10 @@ import { Button, Flex, Heading, Image as ChakraImage } from '@chakra-ui/react'
 
 type Props = {
 	error: string
-	reload: () => void
+	reload?: () => void
 }
 
-function Error({ error, reload }: Props) {
+function Error({ error, reload = () => {} }: Props) {
 	const { t } = useTranslation('common')
 
 	return (

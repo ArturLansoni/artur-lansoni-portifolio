@@ -32,7 +32,7 @@ function GlobalProvider({ children, initialProps }: ProviderProps) {
 			...old,
 			...initialProps
 		}))
-	}, [])
+	}, [initialProps])
 
 	const setTranslationUrl = (value: string): void =>
 		setState(old => ({ ...old, translationUrl: value }))
