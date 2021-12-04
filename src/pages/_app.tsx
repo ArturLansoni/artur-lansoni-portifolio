@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
 	return (
 		<>
 			<Head>
-				<link rel='shortcut icon' href={favicon.url} />
+				<link rel='shortcut icon' href={favicon?.url || ''} />
 				<meta
 					name='viewport'
 					content='width=device-width, initial-scale=1, maximum-scale=5'

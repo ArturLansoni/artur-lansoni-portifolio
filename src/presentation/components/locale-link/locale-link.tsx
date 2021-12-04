@@ -12,14 +12,18 @@ type Props = {
 function LocaleLink({ url, locale, children }: Props) {
 	if (url)
 		return (
-			<Link href={url} locale={locale}>
+			<Link href={url} locale={locale} data-testid='locale-link'>
 				<IconContainer onClick={async () => await setLanguage(locale)}>
 					{children}
 				</IconContainer>
 			</Link>
 		)
 
-	return <IconContainer onClick={async () => await setLanguage(locale)}>{children}</IconContainer>
+	return (
+		<IconContainer data-testid='locale-link' onClick={async () => await setLanguage(locale)}>
+			{children}
+		</IconContainer>
+	)
 }
 
 export default memo(LocaleLink)

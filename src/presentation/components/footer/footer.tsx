@@ -13,11 +13,9 @@ function Footer() {
 			justify='center'
 			bg='bg.400'
 			shadow='custom'
-			sx={{
-				'backdrop-filter': 'blur(10px)',
-				'border-top-left-radius': '10px',
-				'border-top-right-radius': '10px'
-			}}
+			borderTopLeftRadius='10px'
+			borderTopRightRadius='10px'
+			backdropFilter='blur(10px)'
 		>
 			<Flex direction='row'>
 				<Image
@@ -36,6 +34,7 @@ function Footer() {
 						aria-label='LinkedIn profile page'
 						target='_blank'
 						rel='noopener noreferrer'
+						data-testid='linkedin-link'
 					>
 						<IconContainer h={8}>
 							<LinkedInIcon />
@@ -47,6 +46,7 @@ function Footer() {
 						aria-label='Twitter profile page'
 						target='_blank'
 						rel='noopener noreferrer'
+						data-testid='twitter-link'
 					>
 						<IconContainer h={8}>
 							<TwitterIcon />
@@ -58,6 +58,7 @@ function Footer() {
 						aria-label='Github profile page'
 						target='_blank'
 						rel='noopener noreferrer'
+						data-testid='github-link'
 					>
 						<IconContainer h={8}>
 							<GithubIcon />
@@ -69,6 +70,7 @@ function Footer() {
 						aria-label='Gmail profile page'
 						target='_blank'
 						rel='noopener noreferrer'
+						data-testid='gmail-link'
 					>
 						<IconContainer h={8}>
 							<GmailIcon />

@@ -16,13 +16,14 @@ function Header() {
 			justify='center'
 			bg='bg.400'
 			shadow='custom'
-			sx={{ 'backdrop-filter': 'blur(10px)' }}
+			backdropFilter='blur(10px)'
 		>
 			<Flex direction='row' w='1152px' align='center' justify='space-between'>
 				<Link
 					href='/'
 					aria-label='Home page link'
 					sx={{ textDecoration: 'none !important' }}
+					data-testid='header-link'
 				>
 					<Flex display='flex' direction='row' align='center' justify='space-between'>
 						<Logo />

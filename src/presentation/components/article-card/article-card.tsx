@@ -14,6 +14,7 @@ function ArticleCard({ article, publishedDateFormatter }: Props) {
 
 	return (
 		<Link
+			data-testid='link'
 			href={`/article/${article.slug}`}
 			w='100%'
 			aria-label={`Article: ${article.title} page link`}
@@ -46,25 +47,29 @@ function ArticleCard({ article, publishedDateFormatter }: Props) {
 					}}
 				>
 					<Image
+						data-testid='image'
 						src={article.image.url}
 						alt={article.image.alternativeText}
 						display='block'
 						w='100%'
 						h='100px'
 						objectFit='cover'
-						sx={{
-							'border-top-left-radius': '10px',
-							'border-top-right-radius': '10px'
-						}}
+						borderTopLeftRadius='10px'
+						borderTopRightRadius='10px'
 					/>
 				</Box>
 				<Flex h='100%' minH='150px' p={4} direction='column' justify='space-between'>
 					<Flex direction='column'>
-						<Heading as='h2' size='lg'>
+						<Heading data-testid='title' as='h2' size='lg'>
 							{article.title}
 						</Heading>
 						<Flex direction='row' align='center' lineHeight={1} mt={2}>
-							<Text fontSize='xs' color='text.600' fontWeight='bold'>
+							<Text
+								data-testid='published-at'
+								fontSize='xs'
+								color='text.600'
+								fontWeight='bold'
+							>
 								{publishedDateFormatter.format({
 									date: article.publishedAt,
 									locale: lang
@@ -73,7 +78,12 @@ function ArticleCard({ article, publishedDateFormatter }: Props) {
 							<Flex mx={1}>
 								<ClockIcon />
 							</Flex>
-							<Text fontSize='xs' color='text.600' fontWeight='bold'>
+							<Text
+								data-testid='reading-time'
+								fontSize='xs'
+								color='text.600'
+								fontWeight='bold'
+							>
 								{t('reading-time', { minutes: article.readingTime })}
 							</Text>
 						</Flex>
