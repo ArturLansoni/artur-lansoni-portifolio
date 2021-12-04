@@ -2,7 +2,7 @@
 	"name": "artur-lansoni",
 	"private": true,
 	"version": "0.0.1",
-	"description": "My personal blog made using Clean Architecture, TDD, Design Patterns and SOLID",
+	"description": "My personal blog / portifolio made using Clean Architecture, TDD, Design Patterns and SOLID",
 	"repository": "https://github.com/ArturLansoni/artur-lansoni-blog.git",
 	"author": "Artur Lansoni <arturlansoni@gmail.com>",
 	"license": "GPL-3.0",
@@ -10,7 +10,10 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"test:e2e": "cypress open",
+		"test:e2e:run": "cypress run",
+		"test:e2e:ci": "start-server-and-test start http://localhost:3000 test:e2e:run"
 	},
 	"dependencies": {
 		"@chakra-ui/react": "^1.6.12",
@@ -24,14 +27,18 @@
 		"react-dom": "17.0.2"
 	},
 	"devDependencies": {
+		"@cypress/react": "^5.10.3",
+		"@types/jest": "^27.0.2",
 		"@types/node": "16.11.6",
 		"@types/react": "17.0.34",
 		"@typescript-eslint/eslint-plugin": "^5.3.0",
 		"@typescript-eslint/parser": "^5.3.0",
+		"cypress": "^9.0.0",
 		"eslint": "^8.2.0",
 		"eslint-config-next": "^12.0.3",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-import-resolver-babel-module": "^5.3.1",
+		"eslint-plugin-cypress": "^2.12.1",
 		"eslint-plugin-import": "^2.25.2",
 		"eslint-plugin-import-helpers": "^1.1.0",
 		"eslint-plugin-import-order": "^2.1.4",
@@ -39,10 +46,13 @@
 		"eslint-plugin-prettier": "^4.0.0",
 		"eslint-plugin-react": "^7.26.1",
 		"eslint-plugin-react-hooks": "^4.2.1-alpha-cb11155c8-20211112",
+		"faker": "^5.5.3",
 		"git-commit-msg-linter": "^3.2.8",
 		"husky": "^7.0.4",
+		"jest": "^27.3.1",
 		"lint-staged": "^11.2.6",
 		"prettier": "^2.4.1",
+		"start-server-and-test": "^1.14.0",
 		"typescript": "4.4.4"
 	}
 }
