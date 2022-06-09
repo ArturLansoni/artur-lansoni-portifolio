@@ -38,7 +38,7 @@ This project is a blog / portfolio that I created to share my knowledge and at t
 - [X] [ChakraUI](https://chakra-ui.com)
 - [X] [ESLint](https://eslint.org)
 - [X] [Prettier](https://prettier.io)
-- [X] [Husky](https://typicode.github.io/husky/)
+- [X] [Husky](https://typicode.github.io/husky)
 - [X] [Jest](https://jestjs.io)
 - [X] [Cypress](https://www.cypress.io)
 - [ ] [Storybook](https://storybook.js.org)

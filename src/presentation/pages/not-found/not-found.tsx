@@ -1,4 +1,3 @@
-import React from 'react'
 import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -6,7 +5,7 @@ import { Seo } from '@/presentation/components'
 import { HomeIcon } from '@/presentation/icons'
 import { Flex, Heading, Text } from '@chakra-ui/layout'
 
-const NotFound: React.FC = () => {
+function NotFound() {
 	const { t } = useTranslation('common')
 	return (
 		<>

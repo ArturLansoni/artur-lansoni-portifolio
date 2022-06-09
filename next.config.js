@@ -4,5 +4,6 @@
 const nextTranslate = require('next-translate')
 
 module.exports = nextTranslate({
-	reactStrictMode: true
+	reactStrictMode: true,
+	quiet: false
 })
