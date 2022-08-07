@@ -29,14 +29,30 @@
 		"plugin:@typescript-eslint/recommended",
 		"plugin:react/jsx-runtime"
 	],
-	"plugins": ["react", "react-hooks", "prettier", "@typescript-eslint", "import-helpers"],
+	"plugins": [
+		"react",
+		"react-hooks",
+		"prettier",
+		"@typescript-eslint",
+		"import-helpers"
+	],
 	"rules": {
-		"prettier/prettier": "error",
+		"prettier/prettier": [
+			"error",
+			{
+				"endOfLine": "auto"
+			}
+		],
 		"react/react-in-jsx-scope": "off",
 		"react/jsx-filename-extension": [
 			1,
 			{
-				"extensions": [".ts", ".tsx", ".jsx", ".js"]
+				"extensions": [
+					".ts",
+					".tsx",
+					".jsx",
+					".js"
+				]
 			}
 		],
 		"react-hooks/rules-of-hooks": "error",
@@ -48,13 +64,25 @@
 			"error",
 			{
 				"props": true,
-				"ignorePropertyModificationsFor": ["draft"]
+				"ignorePropertyModificationsFor": [
+					"draft"
+				]
 			}
 		],
 		"import-helpers/order-imports": [
 			"error",
 			{
-				"groups": ["/^react/", "/^next/", "module", "/^~/", ["parent", "sibling", "index"]],
+				"groups": [
+					"/^react/",
+					"/^next/",
+					"module",
+					"/^~/",
+					[
+						"parent",
+						"sibling",
+						"index"
+					]
+				],
 				"alphabetize": {
 					"order": "asc",
 					"ignoreCase": true
