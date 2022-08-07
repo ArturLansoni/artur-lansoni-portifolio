@@ -10,6 +10,7 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
+		"prettify": "prettier --write .",
 		"prepare": "husky install",
 		"test": "jest --passWithNoTests --no-cache --runInBand",
 		"test:watch": "yarn test --watch",
