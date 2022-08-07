@@ -23,50 +23,51 @@ Idiomas:
 
 <br />
 
-
 ## 🚀 Projeto
 
-Esse projeto é um blog / portifólio que criei para compartilhar meus conhecimentos e ao mesmo tempo mostrar minhas habilidades. Então uso essa aplicação para treinar algumas das melhores praticas de desenvolvimento de software e tambem experimentar novas tecnologias que venho estudando.
+Esse projeto é um blog / portifólio que criei para compartilhar meus conhecimentos e ao mesmo tempo
+mostrar minhas habilidades. Então uso essa aplicação para treinar algumas das melhores praticas de
+desenvolvimento de software e tambem experimentar novas tecnologias que venho estudando.
 
 ## ⚙️ Tecnologias
 
-- [X] [Next.js](https://nextjs.org)
-- [X] [React](https://reactjs.org)
-- [X] [TypeScript](https://www.typescriptlang.org)
-- [X] [ChakraUI](https://chakra-ui.com)
-- [X] [ESLint](https://eslint.org)
-- [X] [Prettier](https://prettier.io)
-- [X] [Husky](https://typicode.github.io/husky/)
-- [ ] [Jest](https://jestjs.io)
-- [ ] [Cypress](https://www.cypress.io)
-- [ ] [Storybook](https://storybook.js.org)
-- [ ] [Google Analytics]()
+-   [x] [Next.js](https://nextjs.org)
+-   [x] [React](https://reactjs.org)
+-   [x] [TypeScript](https://www.typescriptlang.org)
+-   [x] [ChakraUI](https://chakra-ui.com)
+-   [x] [ESLint](https://eslint.org)
+-   [x] [Prettier](https://prettier.io)
+-   [x] [Husky](https://typicode.github.io/husky/)
+-   [ ] [Jest](https://jestjs.io)
+-   [ ] [Cypress](https://www.cypress.io)
+-   [ ] [Storybook](https://storybook.js.org)
+-   [ ] [Google Analytics]()
 
 ## 💡 Funcionalidades
 
-- SSR
-- Headless CMS
-- PWA
-- Metadados de SEO e tags Open Graph
-- Markdown
-- Internacionalização
-
+-   SSR
+-   Headless CMS
+-   PWA
+-   Metadados de SEO e tags Open Graph
+-   Markdown
+-   Internacionalização
 
 ## 🧱 Arquitetura
 
-- Programação Orientada a Objetos
-- Arquitetura limpa
-- Design patterns
-- Testes unitários
-- Testes de integração
-- Princípios SOLID
-- Princípios KISS, DRY, YAGNI
+-   Programação Orientada a Objetos
+-   Arquitetura limpa
+-   Design patterns
+-   Testes unitários
+-   Testes de integração
+-   Princípios SOLID
+-   Princípios KISS, DRY, YAGNI
 
 <br />
 
 ## 📝 Licença
 
-Este projeto está licenciado sob a licença GPL-3.0. Consulte o arquivo [LICENSE](../LICENSE) para obter detalhes.
+Este projeto está licenciado sob a licença GPL-3.0. Consulte o arquivo [LICENSE](../LICENSE) para
+obter detalhes.
 
 ---
 
