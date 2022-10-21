@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useEffect, useState } from 'react'
+import React, { createContext, useCallback, useContext, useEffect, useState } from 'react'
 import { SeoModel } from '@/domain/models'
 
 type StateProps = {
@@ -34,8 +34,9 @@ function GlobalProvider({ children, initialProps }: ProviderProps) {
 		}))
 	}, [initialProps])
 
-	const setTranslationUrl = (value: string): void =>
+	const setTranslationUrl = useCallback((value: string): void => {
 		setState(old => ({ ...old, translationUrl: value }))
+	}, [])
 
 	return (
 		<GlobalContext.Provider value={{ ...state, setTranslationUrl }}>

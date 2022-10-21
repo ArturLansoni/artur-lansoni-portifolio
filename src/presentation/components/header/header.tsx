@@ -25,7 +25,7 @@ function Header() {
 					sx={{ textDecoration: 'none !important' }}
 					data-testid='header-link'
 				>
-					<Flex display='flex' direction='row' align='center' justify='space-between'>
+					<Flex direction='row' align='center' justify='space-between'>
 						<Logo />
 						<Heading as='h3' size='lg' ml={4}>
 							Artur Lansoni

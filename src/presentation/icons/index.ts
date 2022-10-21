@@ -4,6 +4,7 @@ export { default as GithubIcon } from './social/github-icon'
 export { default as GmailIcon } from './social/gmail-icon'
 export { default as LinkedInIcon } from './social/linkedin-icon'
 export { default as TwitterIcon } from './social/twitter-icon'
+export { default as WhatsappIcon } from './social/whatsapp-icon'
 
 // Technologies icons
 export { default as AngularIcon } from './technologies/angular-icon'

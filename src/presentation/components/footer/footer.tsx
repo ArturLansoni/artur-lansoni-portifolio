@@ -13,13 +13,13 @@ function Footer() {
 			justify='center'
 			bg='bg.400'
 			shadow='custom'
-			borderTopLeftRadius='10px'
-			borderTopRightRadius='10px'
+			borderTopLeftRadius='xl'
+			borderTopRightRadius='xl'
 			backdropFilter='blur(10px)'
 		>
 			<Flex direction='row'>
 				<Image
-					src='/profile-picture.jpg'
+					src='/profile-picture.jpeg'
 					alt='Profile picture'
 					h={10}
 					w={10}
@@ -80,7 +80,7 @@ function Footer() {
 			</Flex>
 
 			<Text as='label' mt={[1, 0]} ml={[0, 8]} fontSize='sm'>
-				© 2021 Artur Lansoni
+				© 2022 Artur Lansoni
 			</Text>
 		</Flex>
 	)
